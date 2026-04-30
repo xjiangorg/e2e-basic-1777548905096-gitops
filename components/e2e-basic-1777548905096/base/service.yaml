@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: e2e-basic-1777548905096
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: e2e-basic-1777548905096 
+  name: e2e-basic-1777548905096
+spec:
+  ports:
+  - port: 3001 
+    targetPort: 3001 
+  selector:
+    app.kubernetes.io/instance: e2e-basic-1777548905096 

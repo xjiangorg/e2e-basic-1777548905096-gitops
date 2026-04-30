@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: e2e-basic-1777548905096-repository
+spec:
+  url: https://github.com/xjiangorg/e2e-basic-1777548905096
